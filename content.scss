@@ -60,8 +60,9 @@
   }
 
   code {
+    display: block;
+    white-space: normal;
     padding: 0.5em;
-    line-height: 3em;
   }
 
   pre code {
