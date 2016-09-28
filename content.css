@@ -47,8 +47,9 @@
   padding: 1em; }
 
 .content code {
-  padding: 0.5em;
-  line-height: 3em; }
+  display: block;
+  white-space: normal;
+  padding: 0.5em; }
 
 .content pre code {
   padding: 0; }
