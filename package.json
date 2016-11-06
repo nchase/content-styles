@@ -1,6 +1,6 @@
 {
   "name": "content.css",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "There will always be user-generated markup and it should look great.",
   "main": "content.css",
   "style": "content.css",
