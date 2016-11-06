@@ -69,4 +69,20 @@
   pre code {
     padding: 0;
   }
+
+  table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background: rgba(128, 128, 128, 0.1);
+  }
+
+  th {
+    padding: 1em;
+    background: rgba(128, 128, 128, 0.1);
+  }
+
+  td {
+    padding: 0.5em 1em;
+  }
 }
