@@ -13,18 +13,19 @@
 .content p:not(:last-child) {
   margin: 0 0 1em; }
 
-.content blockquote p {
-  margin: 0; }
-
-.content blockquote p:not(:last-child) {
-  margin-bottom: 0.5em; }
-
-.content blockquote {
+.content blockquote,
+.content .blockquote {
   margin: 0 0 1em;
   margin-left: 0.3em;
   padding: 0.5em 1em;
   padding-left: 1em;
   border-left: 1px solid currentColor; }
+  .content blockquote p,
+  .content .blockquote p {
+    margin: 0; }
+  .content blockquote p:not(:last-child),
+  .content .blockquote p:not(:last-child) {
+    margin-bottom: 0.5em; }
 
 .content iframe {
   width: 100%; }
